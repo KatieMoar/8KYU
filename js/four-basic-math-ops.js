@@ -13,7 +13,7 @@
 // ('/', 49, 7) --> 7
 
 /* -------------------------------------------- */
-/*                    ANSWER                    */
+/*                   MY ANSWER                  */
 /* -------------------------------------------- */
 
 function basicOp (operation, value1, value2){
@@ -31,3 +31,18 @@ function basicOp (operation, value1, value2){
 
 
 console.log(basicOp('+', 2, 4))
+
+/* -------------------------------------------- */
+/*                  BEST ANSWER                 */
+/* -------------------------------------------- */
+
+// function basicOp(operation, value1, value2) {
+//   switch (operation) {
+//       case '+': return value1 + value2;
+//       case '-': return value1 - value2;
+//       case '*': return value1 * value2;
+//       case '/': return value1 / value2;
+//       default: return 'Operation must be one of + - * /';
+//   }
+// }
+
