@@ -11,13 +11,12 @@
 /* -------------------------------------------- */
 
 function find_average(array) {
-    //find average of an array 
-    let sum = array.reduce((a, b) => a + b)
-    let average = sum / array.length
-    if (array !== []) {
+    if (array.length !== 0){
+        let sum = array.reduce((a, b) => a + b, 0)
+        let average = sum / array.length
         return average
     } else {
-        return 0; 
+        return 0
     }
 
   }
